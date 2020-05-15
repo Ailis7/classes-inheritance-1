@@ -8,7 +8,5 @@ import Undead from './classes/Undead';
 import Zombie from './classes/Zombie';
 import Daemon from './classes/Daemon';
 
-// export default function Character(name, type) {
-// };
-// const man = new Bowman();
-// console.log(man);
+const man = new Bowman('Валера');
+console.log(man);
